@@ -29,7 +29,8 @@ Every project is managed by the `build.zig` file.
 │   ├── knapsack.zig
 │   └── longestIncreasingSubsequence.zig
 ├── machine_learning
-│   └── k_means_clustering.zig
+│   ├── k_means_clustering.zig
+│   └── linear_regression.zig
 ├── math
 │   ├── ceil.zig
 │   ├── chineseRemainderTheorem.zig

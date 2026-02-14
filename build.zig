@@ -251,6 +251,13 @@ pub fn build(b: *std.Build) void {
             .name = "k_means_clustering.zig",
             .category = "machine_learning",
         });
+    if (std.mem.eql(u8, op, "machine_learning/linear-regression"))
+        buildAlgorithm(b, .{
+            .optimize = optimize,
+            .target = target,
+            .name = "linear_regression.zig",
+            .category = "machine_learning",
+        });
     // Numerical Methods
     if (std.mem.eql(u8, op, "numerical_methods/newton_raphson"))
         buildAlgorithm(b, .{

@@ -53,6 +53,7 @@ pub fn main() !void {
 
     // Machine Learning
     try runTest(allocator, "machine_learning/k_means_clustering");
+    try runTest(allocator, "machine_learning/linear-regression");
 
     // Numerical Methods
     try runTest(allocator, "numerical_methods/newton_raphson");
