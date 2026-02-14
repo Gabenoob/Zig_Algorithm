@@ -22,6 +22,7 @@ pub fn main() !void {
     try runTest(allocator, "ds/stack");
     try runTest(allocator, "ds/heap");
     try runTest(allocator, "ds/queue");
+    try runTest(allocator, "ds/hashmap");
 
     // Dynamic Programming
     try runTest(allocator, "dp/coinChange");
